@@ -16,7 +16,7 @@
     <param name="io_method" value="mmap"/>
   </node>
 
-  <node name="pickandplace" pkg="rsj_2017_pick_and_placer" type="pick_and_placer" output="screen">
+  <node name="pickandplace" pkg="rsj_2017_pick_and_placer" type="rsj_2017_pick_and_placer_node" output="screen">
     <remap from="/block" to="/block_finder/pose"/>
   </node>
 
